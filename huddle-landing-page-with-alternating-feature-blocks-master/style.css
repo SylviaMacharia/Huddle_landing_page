@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+.firstsection{
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+}
+.firstbtn{
+    float: right;
+    padding: 10px 40px 10px 40px;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+}
+.firstbtn:hover{
+    background-color: hotpink;
+    color: whitesmoke;
+}
+.secondbtn{
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin: 10px;
+    padding: 10px 50px 10px 50px;
+}
+.secondbtn:hover{
+    background-color: rgb(255, 137, 196);
+}
+.first{
+    height: 75px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.mockup-img{
+    margin-left: 200px;
+    margin-right: 0;
+    height: 350px;
+}
+.top-container{
+    display: flex;
+}
+.text-content{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.image{
+    margin-right: -1000em;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 1px 1px rgb(223, 223, 223);
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(252, 252, 252);
+}
+
+.mainimg{
+    height: 200px;
+}
+
+
+.lastsection{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.gt-access{
+    background-color:rgb(252, 252, 252);
+    border-radius: 5px;
+    border: none;
+    padding: 40px;
+    margin-bottom: -80px;
+    text-align: center;
+}
+
+.lastbtn{
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin: 10px;
+    padding: 15px 50px 15px 50px;
+}
+.lastbtn:hover{
+    background-color: rgb(255, 137, 196);
+}
+
+footer{
+    margin: -10px ;
+    background-color:hsl(192, 100%, 9%) ;
+    padding-top: 100px;
+    color: white;
+}
+
+.logo-foot{
+   filter: brightness(0) invert(1);
+   margin-right: 200px;
+   margin-left: 200px;
+   padding-top: 40px;
+   height: 70px;
+}
+
+.foot{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+}
+
+.contact {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#fr1::before{
+    content: url(images/icon-location.svg);
+}
+#fr2::before{
+    content: url(images/icon-phone.svg);
+}
+#fr3::before{
+    content: url(images/icon-email.svg);
+}
+
+.icons{
+    filter: brightness(0) invert(1);
+    margin-right: 130px;
+}
+i{
+    padding: 10px;
+}
+.copyright{
+    float: right;
+    margin-top:120px ;
+    padding: 20px;
+}
+
+.same-card{
+    flex: 30%;
+}
+
+.diff-card{
+    flex: 50%;
+}
+
+@media screen and(max-width:600px){
+    footer{
+       display: block;
+       width: 100%;
+    }
+}
